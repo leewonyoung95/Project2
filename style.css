@@ -37,7 +37,7 @@ video{
   background-color: lightgray;
 }
 .left{
-  width:30%;
+  width:45%;
   padding:20px;
 	float:left;
 }
@@ -49,11 +49,13 @@ video{
 }
 
 .foods{
-  width:80em;
-  background : rgba(189, 189, 189, .3);\
+  width:70em;
+  border: 3px solid black;
+  /**background : rgba(189, 189, 189, .3);\*/
   display: flex;
   flex-flow: row wrap;
   margin:0 auto;
+  margin-bottom:20px;
 }
 .small{
   width: 60px
@@ -70,10 +72,11 @@ h2{
   text-align: center;
   font-size: 30px
 }
-#centerimg{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50em
+#centerimg img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 #square{
   margin:3em 0;
