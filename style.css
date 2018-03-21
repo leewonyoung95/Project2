@@ -1,0 +1,36 @@
+\
+ul li{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+}
+
+/* Top horizontal nav pane*/
+
+#hyperlink ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#030303;
+    text-align: center;
+}
+
+#hyperlink li {
+	float: right;
+}
+
+#hyperlink li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#hyperlink li a:hover {
+    background-color: #222222;
+}
