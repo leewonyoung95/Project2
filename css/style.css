@@ -29,7 +29,7 @@ video{
   display: flex;
 }
 
-#hrstyle{
+.hrstyle{
   width:500px;
   color:gray;
   border:thin solid gray;
@@ -78,7 +78,7 @@ h2{
   text-align: center;
   font-size: 30px
 }
-#centerimg img, video, h5{
+.centerimg img, video, h5{
   display: block;
     margin-left: auto;
     margin-right: auto;
@@ -86,7 +86,7 @@ h2{
 }
 
 
-#square{
+.square{
   margin:3em 0;
   padding-top: 20px
   width:100%;
@@ -96,7 +96,7 @@ h2{
 }
 
 
-#foim{
+.foim{
   width:450px;
 
 }
@@ -120,7 +120,7 @@ p {
 }
 */
 ul li{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	font-style: normal;
 	font-variant: normal;
